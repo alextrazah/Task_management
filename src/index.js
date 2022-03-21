@@ -16,6 +16,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from "react-router-dom";
+import { BrowserRouter,Route, Switch, Redirect } from "react-router-dom";
 
 // core styles
 import "./scss/volt.scss";
@@ -27,9 +28,10 @@ import HomePage from "./pages/HomePage";
 import ScrollToTop from "./components/ScrollToTop";
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter
+  basename="/graveyard">
     <ScrollToTop />
     <HomePage />
-  </HashRouter>,
+  </BrowserRouter>,
   document.getElementById("root")
 );

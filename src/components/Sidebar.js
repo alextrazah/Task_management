@@ -34,7 +34,7 @@ export default (props = {}) => {
               <span className="sidebar-text">{title}</span>
             </span>
           </Accordion.Button>
-          <Accordion.Body className="multi-level">
+          <Accordion.Body className="multi-level" >
             <Nav className="flex-column">
               {children}
             </Nav>
