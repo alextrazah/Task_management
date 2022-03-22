@@ -310,7 +310,7 @@ export default function Myroutes () {
         />
         <RouteWithSidebar
           exact
-          path="/settings"
+          path={Routes.Settings.path}
           component={Settings}
         />
         <RouteWithSidebar

@@ -28,25 +28,43 @@ import Swal from "sweetalert2";
 
 
 
-export default () => {
+export default function Signin ()  {
   const history = useHistory(); 
   const [myForm, setMyForm] = useState({
     email: "",
     password: "",
   });
+  const config = {
+    headers: {
+      'Content-Type': 'application/json'
+      }
+  };
  async function submit(){
+   console.log(myForm);
+   
    await axios
-     .post("http://localhost:3000/api/v1/auth/login", myForm)
+     .post("http://localhost:3000/api/v1/auth/login", myForm,config)
      .then((response) =>{
        console.log(response);
-       localStorage.setItem("email", JSON.stringify(response.data.email));
-       localStorage.setItem("token", JSON.stringify(response.data.idToken));
-       if (response.data.role === 'admin') {
-        history.go(0) 
-       } else if (response.data.role === 'user') {
-history.go(0)         
+       localStorage.setItem("email", JSON.stringify(response?.data.email));
+       localStorage.setItem("token", JSON.stringify(response?.data.idToken));
+       if (response?.status === 200) {
+       if (response?.data.role === 'admin') {
+        history.go('/dashboard/overview');
+       } else if (response?.data.role === 'user') {
+        history.go('/dashboard/overview');
       }
+    }
+    else {
+      console.log("2222222222222222222222222222222222222222222222222222222222222")
 
+      Swal.fire({
+        title: "Wrong Credentials",
+            text: "Try to enter a valid mail or password",
+            icon: "error",
+            confirmButtonText: "Cool i'll try again",
+      });
+    }
      } )
       .catch(e => {
         
@@ -54,7 +72,7 @@ history.go(0)
             title: "Wrong Credentials",
             text: "Try to enter a valid mail or password",
             icon: "error",
-            confirmButtonText: "Cool",
+            confirmButtonText: "Cool i'll try again",
           });
    })
   };
@@ -84,8 +102,8 @@ history.go(0)
                 <div className="text-center text-md-center mb-4 mt-md-0">
                   <h3 className="mb-0">Sign in to our platform</h3>
                 </div>
-                <Form className="mt-4">
-                  <Form.Group id="email" className="mb-4" onSubmit= {s => (submit())}>
+             
+                  <Form.Group id="email" className="mb-4" >
                     <Form.Label>Your Email</Form.Label>
                     <InputGroup>
                       <InputGroup.Text>
@@ -137,7 +155,7 @@ history.go(0)
                   <Button variant="primary" type="submit" className="w-100" onClick={() => submit()  }>
                     Sign in
                   </Button>
-                </Form>
+         
 
                 <div className="mt-3 mb-4 text-center">
                   <span className="fw-normal">or login with</span>
