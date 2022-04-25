@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.19246a4a.chunk.css",
-    "main.js": "/static/js/main.391f7050.chunk.js",
-    "main.js.map": "/static/js/main.391f7050.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.20657f43.js",
-    "runtime-main.js.map": "/static/js/runtime-main.20657f43.js.map",
+    "main.css": "/static/css/main.690cd914.chunk.css",
+    "main.js": "/static/js/main.dee82481.chunk.js",
+    "main.js.map": "/static/js/main.dee82481.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8702b2a9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8702b2a9.js.map",
     "static/css/2.92567e1e.chunk.css": "/static/css/2.92567e1e.chunk.css",
-    "static/js/2.18fc871e.chunk.js": "/static/js/2.18fc871e.chunk.js",
-    "static/js/2.18fc871e.chunk.js.map": "/static/js/2.18fc871e.chunk.js.map",
+    "static/js/2.49d83be1.chunk.js": "/static/js/2.49d83be1.chunk.js",
+    "static/js/2.49d83be1.chunk.js.map": "/static/js/2.49d83be1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.10d638abfb66ad35cbedc4b029103fc4.js": "/precache-manifest.10d638abfb66ad35cbedc4b029103fc4.js",
+    "precache-manifest.142cb6a08cb3c44ea7f3974650e7854a.js": "/precache-manifest.142cb6a08cb3c44ea7f3974650e7854a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.92567e1e.chunk.css.map": "/static/css/2.92567e1e.chunk.css.map",
-    "static/css/main.19246a4a.chunk.css.map": "/static/css/main.19246a4a.chunk.css.map",
-    "static/js/2.18fc871e.chunk.js.LICENSE.txt": "/static/js/2.18fc871e.chunk.js.LICENSE.txt",
+    "static/css/main.690cd914.chunk.css.map": "/static/css/main.690cd914.chunk.css.map",
+    "static/js/2.49d83be1.chunk.js.LICENSE.txt": "/static/js/2.49d83be1.chunk.js.LICENSE.txt",
     "static/media/404.svg": "/static/media/404.85064a97.svg",
     "static/media/404.jpg": "/static/media/404.9ba4b7cb.jpg",
     "static/media/500.jpg": "/static/media/500.192d8f70.jpg",
     "static/media/500.svg": "/static/media/500.a0320da1.svg",
+    "static/media/Full_logo_white.svg": "/static/media/Full_logo_white.c4f38eb6.svg",
     "static/media/bootstrap-5-logo.svg": "/static/media/bootstrap-5-logo.6aae84ab.svg",
     "static/media/bs5-illustrations.svg": "/static/media/bs5-illustrations.95abb40d.svg",
     "static/media/canada.svg": "/static/media/canada.ed3cd4b5.svg",
@@ -29,6 +30,7 @@
     "static/media/laravel-logo.svg": "/static/media/laravel-logo.32442a8e.svg",
     "static/media/lock.jpg": "/static/media/lock.69f2db42.jpg",
     "static/media/logo.png": "/static/media/logo.4cad1490.png",
+    "static/media/logo_colored.png": "/static/media/logo_colored.c08e1e1f.png",
     "static/media/mockup-calendar-presentation.png": "/static/media/mockup-calendar-presentation.b2d9831a.png",
     "static/media/mockup-map-presentation.png": "/static/media/mockup-map-presentation.fc6d4c75.png",
     "static/media/mockup-presentation.png": "/static/media/mockup-presentation.77a4c6a8.png",
@@ -57,10 +59,10 @@
     "static/media/video.webp": "/static/media/video.12a1fba0.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.20657f43.js",
+    "static/js/runtime-main.8702b2a9.js",
     "static/css/2.92567e1e.chunk.css",
-    "static/js/2.18fc871e.chunk.js",
-    "static/css/main.19246a4a.chunk.css",
-    "static/js/main.391f7050.chunk.js"
+    "static/js/2.49d83be1.chunk.js",
+    "static/css/main.690cd914.chunk.css",
+    "static/js/main.dee82481.chunk.js"
   ]
 }
