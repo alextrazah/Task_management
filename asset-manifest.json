@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.45ae521c.chunk.css",
-    "main.js": "/static/js/main.6744c1e0.chunk.js",
-    "main.js.map": "/static/js/main.6744c1e0.chunk.js.map",
+    "main.css": "/static/css/main.6b065d25.chunk.css",
+    "main.js": "/static/js/main.c2f8e20b.chunk.js",
+    "main.js.map": "/static/js/main.c2f8e20b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.53ea53d6.js",
     "runtime-main.js.map": "/static/js/runtime-main.53ea53d6.js.map",
     "static/css/2.651489a8.chunk.css": "/static/css/2.651489a8.chunk.css",
-    "static/js/2.7e3b7689.chunk.js": "/static/js/2.7e3b7689.chunk.js",
-    "static/js/2.7e3b7689.chunk.js.map": "/static/js/2.7e3b7689.chunk.js.map",
+    "static/js/2.7154ddc9.chunk.js": "/static/js/2.7154ddc9.chunk.js",
+    "static/js/2.7154ddc9.chunk.js.map": "/static/js/2.7154ddc9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.651489a8.chunk.css.map": "/static/css/2.651489a8.chunk.css.map",
-    "static/css/main.45ae521c.chunk.css.map": "/static/css/main.45ae521c.chunk.css.map",
-    "static/js/2.7e3b7689.chunk.js.LICENSE.txt": "/static/js/2.7e3b7689.chunk.js.LICENSE.txt",
+    "static/css/main.6b065d25.chunk.css.map": "/static/css/main.6b065d25.chunk.css.map",
+    "static/js/2.7154ddc9.chunk.js.LICENSE.txt": "/static/js/2.7154ddc9.chunk.js.LICENSE.txt",
     "static/media/01.jpg": "/static/media/01.7340bf5d.jpg",
     "static/media/02.jpg": "/static/media/02.996984ac.jpg",
     "static/media/03.jpg": "/static/media/03.e97dd641.jpg",
@@ -54,6 +54,7 @@
     "static/media/italy.2b31e5a9.svg": "/static/media/italy.2b31e5a9.svg",
     "static/media/japan.382df14f.svg": "/static/media/japan.382df14f.svg",
     "static/media/laravel-logo.742529fa.svg": "/static/media/laravel-logo.742529fa.svg",
+    "static/media/loader.de4277f5.png": "/static/media/loader.de4277f5.png",
     "static/media/lock.cb053aa7.jpg": "/static/media/lock.cb053aa7.jpg",
     "static/media/logo.ff213d1d.png": "/static/media/logo.ff213d1d.png",
     "static/media/logo_colored.1d9d7f7d.png": "/static/media/logo_colored.1d9d7f7d.png",
@@ -88,8 +89,8 @@
   "entrypoints": [
     "static/js/runtime-main.53ea53d6.js",
     "static/css/2.651489a8.chunk.css",
-    "static/js/2.7e3b7689.chunk.js",
-    "static/css/main.45ae521c.chunk.css",
-    "static/js/main.6744c1e0.chunk.js"
+    "static/js/2.7154ddc9.chunk.js",
+    "static/css/main.6b065d25.chunk.css",
+    "static/js/main.c2f8e20b.chunk.js"
   ]
 }
